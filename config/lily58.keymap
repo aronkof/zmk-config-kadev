@@ -39,7 +39,7 @@
 // |       | LEFT | DOWN | RIGHT |      |      |                   |          |       |       | HOME |  END  |        |
 // |       |      |      |       |      |      |        |  |       |          | LALT  | LCTRL | LGUI |       |        |
 //                |      |       |      |      |        |  |       | LA(BSPC) |       |       |      |
-            bindings = j<
+            bindings = <
 &kp GRAVE  &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &trans    &trans   &trans
 &trans     &trans        &kp UP       &trans       &trans       &trans                         &trans       &trans    &trans    &kp LBKT  &kp RBKT &trans
 &trans     &kp LEFT      &kp DOWN     &kp RIGHT    &trans       &trans                         &trans       &trans    &trans    &kp HOME  &kp END  &trans
