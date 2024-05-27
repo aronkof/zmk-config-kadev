@@ -34,13 +34,13 @@
 
         lower_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |   `   |      |      |       |      |      |                   |          |       |       |      |       |        |
-// |       |      |  UP  |       |      |      |                   |          |       |       |  [   |   ]   |        |
-// |       | LEFT | DOWN | RIGHT |      |      |                   |          |       |       | HOME |  END  |        |
-// |       |      |      |       |      |      |        |  |       |          | LALT  | LCTRL | LGUI |       |        |
+// |   `   |      |      |       |      |      |                   |          |       |       |      |       |  DEL  |
+// |       |      |  UP  |       |      |      |                   |          |       |       |  [   |   ]   |       |
+// |       | LEFT | DOWN | RIGHT |      |      |                   |          |       |       | HOME |  END  |       |
+// |       |      |      |       |      |      |        |  |       |          | LALT  | LCTRL | LGUI |       |       |
 //                |      |       |      |      |        |  |       | LA(BSPC) |       |       |      |
             bindings = <
-&kp GRAVE  &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &trans    &trans   &trans
+&kp GRAVE  &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &trans    &trans   &kp DEL
 &trans     &trans        &kp UP       &trans       &trans       &trans                         &trans       &trans    &trans    &kp LBKT  &kp RBKT &trans
 &trans     &kp LEFT      &kp DOWN     &kp RIGHT    &trans       &trans                         &trans       &trans    &trans    &kp HOME  &kp END  &trans
 &trans     &trans        &trans       &trans       &trans       &trans       &trans   &trans   &trans       &kp LALT  &kp LCTRL &kp LGUI  &trans   &trans
@@ -76,10 +76,10 @@
 // | LCTRL |  Z  |  X  |  C   |  V   |   B   |    ;   |  |   =   |  N   |  M    |  ,    |  .   |   /   | RAISE |
 //                     | ALT  |      | LCTRL |  SPACE |  | ENTER | BSPC | LEFT  | RIGHT |
             bindings = <
-&kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                      &kp N6    &kp N7   &kp N8    &kp N9  &kp N0   &kp MINUS
-&kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                       &kp Y     &kp U    &kp I     &kp O   &kp P    &kp BSLH
-&kp LSHFT &kp A  &kp S  &kp D    &kp F    &kp G                       &kp H     &kp J    &kp K     &kp L   &kp SEMI &kp SQT
-&kp LCTRL &kp Z  &kp X  &kp C    &kp V    &kp B     &kp SEMI   &kp EQUAL &kp N     &kp M    &kp COMMA &kp DOT &kp FSLH &mo 2
+&kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                         &kp N6    &kp N7   &kp N8    &kp N9  &kp N0   &kp MINUS
+&kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                          &kp Y     &kp U    &kp I     &kp O   &kp P    &kp BSLH
+&kp LSHFT &kp A  &kp S  &kp D    &kp F    &kp G                          &kp H     &kp J    &kp K     &kp L   &kp SEMI &kp SQT
+&kp LCTRL &kp Z  &kp X  &kp C    &kp V    &kp B     &kp SEMI   &kp EQUAL &kp N     &kp M    &kp COMMA &kp DOT &kp FSLH &tog 3
                         &kp LALT &none    &kp LCTRL &kp SPACE  &kp RET   &kp BSPC  &kp LEFT &kp RIGHT
             >;
 
