@@ -40,7 +40,7 @@
 // |       |      |      |       |      |      |        |  |       |          | LALT  | LCTRL | LGUI |       |       |
 //                |      |       |      |      |        |  |       | LA(BSPC) |       |       |      |
             bindings = <
-&kp GRAVE  &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &trans    &trans   &kp DEL
+&kp GRAVE  &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &kp HOME  &kp END  &kp DEL
 &trans     &trans        &trans       &trans       &trans       &trans                         &trans       &trans    &trans    &kp LBKT  &kp RBKT &trans
 &trans     &trans        &trans       &trans       &trans       &trans                         &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT &none    &trans
 &trans     &trans        &trans       &trans       &trans       &trans       &trans   &trans   &trans       &kp LALT  &kp LCTRL &kp LGUI  &trans   &trans
